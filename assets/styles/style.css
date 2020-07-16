@@ -331,7 +331,12 @@ nav a {
 
 .relevance {
   max-width: 1400px;
-  margin: 300px auto 0;
+  margin: 250px auto 0;
+}
+
+.relevance-heading {
+  max-width: 460px;
+  margin: 100px 0 115px 67%;
 }
 
 .relevance-info {
@@ -432,6 +437,11 @@ nav a {
     left: 0;
     right: 0;
     text-align: center;
+  }
+
+  .relevance-heading {
+    max-width: 320px;
+    margin: 0 auto 30px;
   }
 
   .relevance-info {
