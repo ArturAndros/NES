@@ -2,6 +2,7 @@ body {
   font-family: "Montserrat", sans-serif;
   margin: 0;
   background-color: black;
+  color: white;
 }
 
 a {
@@ -11,6 +12,10 @@ a {
 
 a:hover {
   color: #FFC50B;
+}
+
+h2 {
+  font-size: 21px;
 }
 
 button {
@@ -119,7 +124,6 @@ header .header-content {
 
 h1 {
   font-size: 36px;
-  color: white;
   margin-top: 469px;
   z-index: 2;
 }
@@ -318,12 +322,42 @@ nav a {
   padding: 80px 0 0 80px;
 }
 .about-us-info-block h2 {
-  font-size: 21px;
   margin-bottom: 40px;
 }
 .about-us-info-block p {
   margin: 0 0 10px;
   line-height: 32px;
+}
+
+.relevance {
+  max-width: 1400px;
+  margin: 300px auto 0;
+}
+
+.relevance-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.relevance-info-card {
+  width: 260px;
+  margin-bottom: 20px;
+}
+.relevance-info-card h2 {
+  text-align: center;
+}
+.relevance-info-card p {
+  margin-top: 30px;
+  margin-left: 2px;
+  line-height: 23px;
+  letter-spacing: 1px;
+}
+
+.relevance-card-line img:nth-child(1) {
+  width: 10px;
+  position: relative;
+  top: 21px;
 }
 
 @media (max-width: 1440px) {
@@ -398,6 +432,12 @@ nav a {
     left: 0;
     right: 0;
     text-align: center;
+  }
+
+  .relevance-info {
+    flex-wrap: wrap;
+    max-width: 700px;
+    margin: 0 auto;
   }
 }
 @media (max-width: 800px) {
@@ -539,6 +579,10 @@ nav a {
   .squares {
     margin-top: 57px;
     margin-left: 0px;
+  }
+
+  .relevance-info-card {
+    margin: 0 auto 30px;
   }
 }
 
