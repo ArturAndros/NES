@@ -343,10 +343,13 @@ nav {
 }
 .relevance-card-line{
 img:nth-child(1){
-width: 10px;
-position: relative;
-top:21px;
+  width: 10px;
+  position: relative;
+  top: 22px;
 }
+  img:nth-child(2){
+    width: 260px;
+  }
 }
 //mobile
 @media(max-width: 1440px) {

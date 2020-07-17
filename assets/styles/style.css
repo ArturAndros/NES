@@ -362,7 +362,10 @@ nav a {
 .relevance-card-line img:nth-child(1) {
   width: 10px;
   position: relative;
-  top: 21px;
+  top: 22px;
+}
+.relevance-card-line img:nth-child(2) {
+  width: 260px;
 }
 
 @media (max-width: 1440px) {
