@@ -190,7 +190,7 @@ nav {
 
   .logo {
     width: 150px;
-    z-index: 2;
+    z-index: 3;
   }
   .menu {
     z-index: 3;
@@ -224,13 +224,13 @@ nav {
   }
 }
 //ABOUT US/////////////////////
-.about-us{
+.about-us ,.about-course-main-info{
   display: flex;
   flex-direction: row;
   max-width: 1600px;
   margin: 220px auto 0;
 }
-.about-us-column{
+.about-us-column, .about-course-main-info-column{
   width: 50%;
   display: flex;
   flex-direction: column;
@@ -241,7 +241,7 @@ nav {
     width: 10px;
     position: relative;
     top: 4px;
-    right: -5px;
+    right: -6px;
   }
   img:nth-child(2) {
     width: 460px;
@@ -348,7 +348,72 @@ img:nth-child(1){
   top: 22px;
 }
   img:nth-child(2){
-    width: 260px;
+    width: 100%;
+  }
+}
+//////////ABOUT COURSE////////
+.about-course-main-info{
+  max-width: 1430px;
+}
+.make-your-game-banner{
+  width: 400px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto 50px;
+  .vertical-line{
+    width: 4px;
+    height: 115px;
+    background-color: #ffa002;
+  }
+  .make-your-banner-text{
+    width: 280px;
+    height: 122px;
+    padding-left: 60px;
+
+    color: #ffa002;
+    border: #ffa002 4px solid;
+    border-radius: 25px;
+    font-size: 25px;
+    line-height: 40px;
+    text-align: left;
+    font-weight: bold;
+
+    display: flex;
+    align-items: center;
+  }
+}
+.about-course-main-info-column{
+  h2{
+    color: #ffa002;
+    margin-bottom: 30px;
+  }
+  p{
+    margin: 10px 0 0 0;
+    letter-spacing: 2px;
+    line-height: 25px;
+  }
+}
+.about-course-heading{
+  width: 270px;
+}
+.about-course-text{
+  max-width: 540px;
+  margin: 50px auto;
+}
+.about-course-icons{
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  justify-content: space-between;
+  .about-course-icons-card{
+    width: 135px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 16px;
+    line-height: 29px;
   }
 }
 //mobile
@@ -360,6 +425,11 @@ margin: 190px 15px 0;
 .about-us-info-shine {
 display: none;
 }
+  .about-course-main-info-column{
+    .line-over-text, .about-course-heading{
+      margin: 0 auto;
+    }
+  }
 }
 @media(max-width: 1200px) {
 nav {
@@ -431,7 +501,6 @@ text-align: center;
     margin: 0 auto;
   }
 }
-
 @media(max-width: 800px) {
 header {
 background-position-x: -655px;
@@ -488,6 +557,27 @@ width: 10px;
 top: 23px;
 right: 0px;
 }
+.about-course-main-info{
+  flex-direction: column-reverse;
+  .about-course-main-info-column{
+    width: 100%;
+  }
+  .line-over-text img:nth-child(1) {
+    width: 10px;
+    right: -7px;
+    top:3px;
+  }
+  .big-unity{
+    width: 100%;
+  }
+}
+  .about-course-icons{
+    width: 320px;
+    flex-wrap: wrap;
+    justify-content:space-around;
+  }
+
+
 }
 @media (max-width: 600px) {
 header {
@@ -526,10 +616,10 @@ margin: 190px 5px 0;
 width: 100%;
 }
 .line-over-text{
-width: 60%;
+//width: 60%;
 img:nth-child(1){
-  width: 5px;
-  top: 20px;
+  width: 10px;
+  top: 23px;
 }
 img:nth-child(2){
   width: 100%;
@@ -581,5 +671,38 @@ margin-left: 0px;
 }
   .relevance-info-card {
     margin: 0 auto 30px;
+  }
+
+  .about-course-text{
+    width: 80%;
+  }
+//.make-your-game-banner{
+//  width: 80%;
+//  .make-your-banner-text{
+//    width: 245px;
+//    padding-left: 24px;
+//  }
+//}
+  .about-course-main-info .line-over-text img:nth-child(1) {
+    width: 10px;
+    top: 23px;
+    right: 0px;
+  }
+  .about-course-icons {
+    width: 160px;
+  }
+  .make-your-game-banner {
+    width: 70%;
+    .make-your-banner-text {
+      width: 180px;
+      height: 90px;
+      padding-left: 30px;
+
+      font-size: 16px;
+      line-height: 25px;
+    }
+    .vertical-line{
+      height: 96px;
+    }
   }
 }
