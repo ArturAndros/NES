@@ -2,14 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="916bd8e3-5da1-4a7a-929c-284377cb14bb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/images/about-course/about-course-01.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/about-course/android-icon-01.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/about-course/apple-icon-01.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/about-course/ar-icon-01.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/about-course/stroke-01.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/about-course/unity-icon-01.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/about-course/unity-ill-01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/about-course/vr-icon-01.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/NES.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/join-us/Advanced-ill-01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/join-us/Beginner-ill-01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/join-us/Middle-ill-01.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../fly_dog/index.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../test_tatoos/.idea/watcherTasks.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../tetris/.idea/encodings.xml" afterDir="false" />
@@ -46,8 +47,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="207" column="33" selection-start-line="207" selection-start-column="33" selection-end-line="207" selection-end-column="33" />
+            <state relative-caret-position="220">
+              <caret line="279" column="22" selection-start-line="279" selection-start-column="22" selection-end-line="279" selection-end-column="22" />
               <folding>
                 <element signature="n#head#0;n#html#0;n#!!top" />
                 <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" />
@@ -56,11 +57,12 @@
                 <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#3;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#p#3;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
-                <marker date="1595093681473" expanded="true" signature="1190:2352" ph="..." />
+                <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#3;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#4;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#1;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" />
+                <marker date="1595165312662" expanded="true" signature="1190:2352" ph="..." />
               </folding>
             </state>
           </provider>
@@ -69,51 +71,31 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/styles/style.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="362">
-              <caret line="702" column="6" selection-start-line="702" selection-start-column="6" selection-end-line="702" selection-end-column="6" />
+            <state relative-caret-position="557">
+              <caret line="840" column="14" selection-start-line="840" selection-start-column="14" selection-end-line="840" selection-end-column="14" />
               <folding>
-                <element signature="e#284#682#0" />
-                <element signature="e#696#1107#0" />
-                <element signature="e#1134#1149#0" />
-                <element signature="e#1176#1192#0" />
-                <element signature="e#1219#1235#0" />
-                <element signature="e#1267#1437#0" />
-                <element signature="e#1469#1501#0" />
-                <element signature="e#1533#1707#0" />
-                <element signature="e#1720#1873#0" />
-                <element signature="e#1884#2513#0" />
-                <element signature="e#2519#2602#0" />
-                <element signature="e#2612#2738#0" />
-                <element signature="e#2754#3299#0" />
-                <element signature="e#4079#4340#0" />
-                <element signature="e#4224#4293#0" />
-                <element signature="e#4748#4767#0" />
-                <element signature="e#4780#5041#0" />
-                <element signature="e#5050#5296#0" />
-                <element signature="e#5317#5407#0" />
-                <element signature="e#5428#5802#0" />
-                <element signature="e#6163#6948#0" />
-                <element signature="e#6984#7391#0" />
-                <element signature="e#7396#7498#0" />
-                <element signature="e#7529#7579#0" />
-                <element signature="e#7613#7652#0" />
+                <element signature="e#8753#8965#0" />
+                <element signature="e#9153#9159#0" />
+                <element signature="e#8992#9937#0" />
+                <element signature="e#9963#10983#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/images/about-us/text-bg-01.png">
+        <entry file="file://$PROJECT_DIR$/assets/images/portfolio/icon shadow portfolio-01.svg">
           <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/scripts/scripts.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="11" column="42" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/assets/images/portfolio/google play button-01.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/images/portfolio/line bg portfolio-01.svg">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
     </leaf>
@@ -140,6 +122,8 @@
       <find>h2</find>
       <find>car</find>
       <find>line-over-text</find>
+      <find>line</find>
+      <find>about-course</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -156,10 +140,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-9" />
-    <option name="y" value="-9" />
-    <option name="width" value="1938" />
-    <option name="height" value="1048" />
+    <option name="x" value="-10" />
+    <option name="y" value="-10" />
+    <option name="width" value="1939" />
+    <option name="height" value="1049" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -190,7 +174,21 @@
               <item name="NES" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
               <item name="images" type="462c0819:PsiDirectoryNode" />
-              <item name="about-course" type="462c0819:PsiDirectoryNode" />
+              <item name="portfolio" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NES" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NES" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="portfolio" type="462c0819:PsiDirectoryNode" />
+              <item name="EndlessRunner" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NES" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NES" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="styles" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -212,6 +210,8 @@
       <recent name="D:\frontend\WebstormProjects\NES\assets\images" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\frontend\WebstormProjects\NES\assets\images\portfolio" />
+      <recent name="D:\frontend\WebstormProjects\NES\assets\images\join-us" />
       <recent name="D:\frontend\WebstormProjects\NES\assets\images\about-course" />
       <recent name="D:\frontend\WebstormProjects\NES\assets\images\relevance" />
       <recent name="D:\frontend\WebstormProjects\NES\assets\images\about-us" />
@@ -240,12 +240,13 @@
       <option name="presentableId" value="Default" />
       <updated>1594312682777</updated>
       <workItem from="1594312684804" duration="52171000" />
-      <workItem from="1594848709546" duration="23913000" />
+      <workItem from="1594848709546" duration="32856000" />
+      <workItem from="1595158427840" duration="5121000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76084000" />
+    <option name="totallyTimeSpent" value="90148000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -312,9 +313,6 @@
     <entry file="file://$PROJECT_DIR$/assets/images/about-us/bg-particles-01.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/images/about-us/text-bg-01.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/scripts/scripts.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
@@ -334,10 +332,100 @@
     <entry file="file://$PROJECT_DIR$/assets/images/about-course/stroke-01.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/assets/images/join-us/Middle-01.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/images/join-us/apply-01.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/images/about-us/text-bg-01.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/images/join-us/Advanced-01.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/images/join-us/avater mask-01.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/images/join-us/Beginner-01.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/images/join-us/check mark green-01.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/images/join-us/description icon green-01.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/images/join-us/clock  icon orange-01.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/images/join-us/clock  icon not active-01.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/images/join-us/clock  icon green-01.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/images/join-us/check mark purple-01.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/images/join-us/check mark orange-01.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/images/join-us/places stroke bg green-01.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/images/join-us/star icon green-01.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/images/join-us/study icon green-01.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/images/join-us/to know price button-01.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/images/portfolio/squere mark purple-01.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/images/portfolio/portfolio-01.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/images/portfolio/line purple-01.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/images/portfolio/android mark-01.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/images/portfolio/about game button-01.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/images/portfolio/apple mark-01.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/images/portfolio/cancel-01.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/images/portfolio/Tic-tac-toe/tic tac toe wave icon-01.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/images/portfolio/Tic-tac-toe/tic tac toe wave logo-01.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/images/portfolio/Tic-tac-toe/mockup tic tak toe preview.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/images/portfolio/google play button-01.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/images/portfolio/line bg portfolio-01.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/images/portfolio/icon shadow portfolio-01.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="207" column="33" selection-start-line="207" selection-start-column="33" selection-end-line="207" selection-end-column="33" />
+        <state relative-caret-position="220">
+          <caret line="279" column="22" selection-start-line="279" selection-start-column="22" selection-end-line="279" selection-end-column="22" />
           <folding>
             <element signature="n#head#0;n#html#0;n#!!top" />
             <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" />
@@ -346,45 +434,25 @@
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#3;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#p#3;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
-            <marker date="1595093681473" expanded="true" signature="1190:2352" ph="..." />
+            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#3;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#4;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" />
+            <marker date="1595165312662" expanded="true" signature="1190:2352" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/styles/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="702" column="6" selection-start-line="702" selection-start-column="6" selection-end-line="702" selection-end-column="6" />
+        <state relative-caret-position="557">
+          <caret line="840" column="14" selection-start-line="840" selection-start-column="14" selection-end-line="840" selection-end-column="14" />
           <folding>
-            <element signature="e#284#682#0" />
-            <element signature="e#696#1107#0" />
-            <element signature="e#1134#1149#0" />
-            <element signature="e#1176#1192#0" />
-            <element signature="e#1219#1235#0" />
-            <element signature="e#1267#1437#0" />
-            <element signature="e#1469#1501#0" />
-            <element signature="e#1533#1707#0" />
-            <element signature="e#1720#1873#0" />
-            <element signature="e#1884#2513#0" />
-            <element signature="e#2519#2602#0" />
-            <element signature="e#2612#2738#0" />
-            <element signature="e#2754#3299#0" />
-            <element signature="e#4079#4340#0" />
-            <element signature="e#4224#4293#0" />
-            <element signature="e#4748#4767#0" />
-            <element signature="e#4780#5041#0" />
-            <element signature="e#5050#5296#0" />
-            <element signature="e#5317#5407#0" />
-            <element signature="e#5428#5802#0" />
-            <element signature="e#6163#6948#0" />
-            <element signature="e#6984#7391#0" />
-            <element signature="e#7396#7498#0" />
-            <element signature="e#7529#7579#0" />
-            <element signature="e#7613#7652#0" />
+            <element signature="e#8753#8965#0" />
+            <element signature="e#9153#9159#0" />
+            <element signature="e#8992#9937#0" />
+            <element signature="e#9963#10983#0" />
           </folding>
         </state>
       </provider>

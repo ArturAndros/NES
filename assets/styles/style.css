@@ -236,14 +236,14 @@ nav a {
   margin-top: 140px;
 }
 
-.about-us, .about-course-main-info {
+.about-us, .about-course-main-info, .join-us {
   display: flex;
   flex-direction: row;
   max-width: 1600px;
   margin: 220px auto 0;
 }
 
-.about-us-column, .about-course-main-info-column {
+.about-us-column, .about-course-main-info-column, .join-us-column {
   width: 50%;
   display: flex;
   flex-direction: column;
@@ -362,7 +362,7 @@ nav a {
 .relevance-card-line img:nth-child(1) {
   width: 10px;
   position: relative;
-  top: 22px;
+  top: 21px;
 }
 .relevance-card-line img:nth-child(2) {
   width: 100%;
@@ -423,6 +423,7 @@ nav a {
   display: flex;
   flex-direction: row;
   margin: 0 auto;
+  max-width: 1200px;
   justify-content: space-between;
 }
 .about-course-icons .about-course-icons-card {
@@ -432,6 +433,87 @@ nav a {
   text-align: center;
   font-size: 16px;
   line-height: 29px;
+}
+
+.portfolio-heading {
+  max-width: 1300px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin: 250px auto 190px;
+}
+
+.portfolio-heading-text {
+  max-width: 380px;
+}
+
+.portfolio-info {
+  max-width: 1420px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.game-example {
+  width: 662px;
+  height: 477px;
+  border: 3px solid #9543ff;
+  border-radius: 60px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.game-example-column {
+  width: 45%;
+  height: inherit;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.game-example-column .endless-runner-logo {
+  margin-bottom: 30px;
+}
+
+.game-example-column-second {
+  justify-content: space-around;
+}
+
+.icon-shadow-game {
+  position: absolute;
+  z-index: -1;
+  width: 365px;
+  top: 125px;
+}
+
+.os-icons {
+  display: flex;
+  width: 206px;
+  justify-content: flex-end;
+}
+.os-icons .android {
+  width: 35px;
+}
+.os-icons .apple {
+  width: 35px;
+  margin-right: 40px;
+}
+
+.game-buttons .about-game-btn {
+  margin-top: 20px;
+  display: block;
+  width: 202px;
+  height: 61px;
+  border: #9543ff 2px solid;
+  border-radius: 23px;
+  color: #9543ff;
+  line-height: 61px;
+  text-align: center;
+  font-weight: bold;
+  letter-spacing: 3px;
+  font-size: 21px;
 }
 
 @media (max-width: 1440px) {
@@ -445,6 +527,20 @@ nav a {
 
   .about-course-main-info-column .line-over-text, .about-course-main-info-column .about-course-heading {
     margin: 0 auto;
+  }
+}
+@media (max-width: 1420px) {
+  .portfolio-heading {
+    align-items: center;
+  }
+
+  .portfolio-info {
+    width: 670px;
+    flex-direction: column;
+  }
+
+  .portfolio-info-column {
+    margin-bottom: 50px;
   }
 }
 @media (max-width: 1200px) {
@@ -591,6 +687,20 @@ nav a {
     justify-content: space-around;
   }
 }
+@media (max-width: 700px) {
+  .portfolio-info {
+    width: 100%;
+  }
+
+  .game-example {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .game-example-column img {
+    width: 100%;
+  }
+}
 @media (max-width: 600px) {
   header {
     height: 800px;
@@ -712,6 +822,40 @@ nav a {
   }
   .make-your-game-banner .vertical-line {
     height: 96px;
+  }
+
+  .game-example {
+    height: 300px;
+  }
+
+  .game-buttons {
+    width: 100%;
+  }
+  .game-buttons .about-game-btn {
+    margin-top: 20px;
+    display: block;
+    width: 132px;
+    height: 41px;
+    border: #9543ff 1.5px solid;
+    border-radius: 15px;
+    line-height: 41px;
+    font-size: 16px;
+  }
+
+  .icon-shadow-game {
+    width: 70% !important;
+    top: 92px;
+  }
+
+  .os-icons {
+    width: 100px;
+  }
+  .os-icons .android {
+    width: 25px;
+  }
+  .os-icons .apple {
+    width: 25px;
+    margin-right: 25px;
   }
 }
 
