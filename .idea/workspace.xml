@@ -18,8 +18,6 @@
       <change afterPath="$PROJECT_DIR$/../tetris/styles.css" afterDir="false" />
       <change beforePath="D:/.idea/vcs.xml" beforeDir="false" afterPath="D:/.idea/vcs.xml" afterDir="false" />
       <change beforePath="D:/.idea/workspace.xml" beforeDir="false" afterPath="D:/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/styles/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/styles/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/style.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/styles/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/style.scss" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -60,8 +58,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/styles/style.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="403">
-              <caret line="842" column="3" selection-start-line="842" selection-start-column="3" selection-end-line="842" selection-end-column="3" />
+            <state relative-caret-position="183">
+              <caret line="347" column="9" selection-start-line="347" selection-start-column="9" selection-end-line="347" selection-end-column="9" />
               <folding>
                 <element signature="e#8753#8965#0" />
                 <element signature="e#9153#9159#0" />
@@ -230,12 +228,12 @@
       <updated>1594312682777</updated>
       <workItem from="1594312684804" duration="52171000" />
       <workItem from="1594848709546" duration="32856000" />
-      <workItem from="1595158427840" duration="5812000" />
+      <workItem from="1595158427840" duration="6256000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="90839000" />
+    <option name="totallyTimeSpent" value="91283000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -435,8 +433,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/styles/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="842" column="3" selection-start-line="842" selection-start-column="3" selection-end-line="842" selection-end-column="3" />
+        <state relative-caret-position="183">
+          <caret line="347" column="9" selection-start-line="347" selection-start-column="9" selection-end-line="347" selection-end-column="9" />
           <folding>
             <element signature="e#8753#8965#0" />
             <element signature="e#9153#9159#0" />
