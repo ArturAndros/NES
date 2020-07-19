@@ -824,21 +824,22 @@ margin-left: 0px;
     height: 300px
   }
   .game-buttons{
-    width: 100%;
+    width: 80%;
+    margin: 0 0 20px 30px;
     .about-game-btn {
       margin-top: 20px;
       display: block;
-      width: 132px;
-      height: 41px;
-      border: #9543ff 1.5px solid;
-      border-radius: 15px;
-      line-height: 41px;
+      width: 100%;
+      height: 31px;
+      border: #9543ff 1px solid;
+      border-radius: 12px;
+      line-height: 31px;
       font-size: 16px;
     }
   }
-  .icon-shadow-game{
+  .icon-shadow-game {
     width: 70% !important;
-    top: 92px;
+    top: 75px;
   }
   .os-icons {
     width: 100px;
