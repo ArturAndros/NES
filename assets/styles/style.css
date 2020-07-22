@@ -180,7 +180,7 @@ nav {
 }
 nav .logo-bg {
   position: absolute;
-  width: 80%;
+  width: 65%;
   left: 0;
   opacity: 0.7;
   top: 0;
@@ -190,13 +190,13 @@ nav .nav-bg {
   position: absolute;
   width: 100%;
   left: 0;
-  top: 0;
   z-index: 3;
+  top: -80px;
 }
 nav .nav-content {
   width: 80%;
   display: flex;
-  margin: 40px auto;
+  margin: 15px auto;
   flex-direction: row;
   justify-content: space-between;
 }
@@ -213,7 +213,7 @@ nav .menu {
   align-items: center;
 }
 nav a {
-  font-size: 16px;
+  font-size: 21px;
   color: white;
 }
 
@@ -250,14 +250,8 @@ nav a {
   align-items: flex-end;
 }
 
-.line-over-text img:nth-child(1) {
-  width: 10px;
-  position: relative;
-  top: 4px;
-  right: -6px;
-}
-.line-over-text img:nth-child(2) {
-  width: 460px;
+.line-over-text img {
+  width: 575px;
 }
 
 .about-us-heading {
@@ -335,8 +329,12 @@ nav a {
 }
 
 .relevance-heading {
-  max-width: 460px;
-  margin: 100px 0 115px 67%;
+  margin: 100px 0 115px 60%;
+}
+
+.relevance-heading-text {
+  width: 464px;
+  margin-left: 110px;
 }
 
 .relevance-info {
@@ -357,15 +355,6 @@ nav a {
   margin-left: 2px;
   line-height: 23px;
   letter-spacing: 1px;
-}
-
-.relevance-card-line img:nth-child(1) {
-  width: 10px;
-  position: relative;
-  top: 22px;
-}
-.relevance-card-line img:nth-child(2) {
-  width: 100%;
 }
 
 .about-course-main-info {
@@ -411,7 +400,7 @@ nav a {
 }
 
 .about-course-heading {
-  width: 270px;
+  width: 269px;
 }
 
 .about-course-text {
@@ -452,8 +441,8 @@ nav a {
 }
 
 .join-us-heading-text {
-  max-width: 465px;
-  margin-top: 10px;
+  max-width: 480px;
+  margin-top: 5px;
 }
 
 .join-us-menu-choose-lvl {
@@ -710,11 +699,11 @@ nav a {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-  margin: 250px auto 190px;
+  margin: 250px auto 150px;
 }
 
 .portfolio-heading-text {
-  max-width: 380px;
+  max-width: 365px;
 }
 
 .portfolio-info {
@@ -742,9 +731,6 @@ nav a {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-}
-.game-example-column .endless-runner-logo {
-  margin-bottom: 30px;
 }
 
 .game-example-column-second {
@@ -801,6 +787,15 @@ nav a {
 
   .join-us-buttons {
     margin-left: 40px;
+  }
+
+  nav .nav-bg {
+    top: -40px;
+  }
+
+  .relevance-heading {
+    max-width: 460px;
+    margin: 100px 0 115px 56%;
   }
 }
 @media (max-width: 1420px) {
@@ -903,7 +898,6 @@ nav a {
   }
 
   .relevance-heading {
-    max-width: 320px;
     margin: 0 auto 30px;
   }
 
@@ -936,6 +930,14 @@ nav a {
 
   .join-us-buttons {
     margin: 175px auto 0;
+  }
+
+  .line-over-text img {
+    width: 470px;
+  }
+
+  .relevance-heading-text {
+    margin-left: 0;
   }
 }
 @media (max-width: 800px) {
@@ -979,10 +981,8 @@ nav a {
     margin: 120px auto 0;
   }
 
-  .line-over-text img:nth-child(1) {
-    width: 10px;
-    top: 23px;
-    right: 0px;
+  .line-over-text img {
+    width: 300px;
   }
 
   .about-course-main-info {
@@ -990,11 +990,6 @@ nav a {
   }
   .about-course-main-info .about-course-main-info-column {
     width: 100%;
-  }
-  .about-course-main-info .line-over-text img:nth-child(1) {
-    width: 10px;
-    right: -7px;
-    top: 3px;
   }
   .about-course-main-info .big-unity {
     width: 100%;
@@ -1021,8 +1016,15 @@ nav a {
   }
 
   .portfolio-heading-text, .join-us-heading-text {
-    width: 80%;
     margin: 10px auto;
+  }
+
+  .join-us-heading-text {
+    width: 85%;
+  }
+
+  .portfolio-heading-text {
+    width: 70%;
   }
 
   .join-us-heading .line-over-text {
@@ -1064,11 +1066,7 @@ nav a {
     width: 100%;
   }
 
-  .line-over-text img:nth-child(1) {
-    width: 10px;
-    top: 23px;
-  }
-  .line-over-text img:nth-child(2) {
+  .line-over-text img {
     width: 100%;
   }
 
@@ -1083,8 +1081,8 @@ nav a {
   }
 
   .about-us-heading {
-    width: 149px;
-    margin: 0 70px 0 0;
+    width: 135px;
+    margin: 0 11% 0 0;
   }
 
   .media-icons {
@@ -1121,6 +1119,16 @@ nav a {
     margin-left: 0px;
   }
 
+  .relevance-heading .line-over-text {
+    width: 300px;
+    margin: 0 auto;
+  }
+  .relevance-heading .relevance-heading-text {
+    display: block;
+    width: 300px;
+    margin: 0 auto;
+  }
+
   .relevance-info-card {
     margin: 0 auto 30px;
   }
@@ -1129,10 +1137,9 @@ nav a {
     width: 80%;
   }
 
-  .about-course-main-info .line-over-text img:nth-child(1) {
-    width: 10px;
-    top: 23px;
-    right: 0px;
+  .about-course-heading {
+    width: 200px;
+    margin: 0 10% 0 0;
   }
 
   .about-course-icons {
@@ -1186,6 +1193,11 @@ nav a {
   .os-icons .apple {
     width: 25px;
     margin-right: 25px;
+  }
+
+  .join-us-menu-choose-lvl-element {
+    width: 90px;
+    height: 30px;
   }
 
   .join-us-menu-choose-lvl {
@@ -1265,6 +1277,10 @@ nav a {
 
   .join-us-buttons img {
     width: 150px;
+  }
+
+  .portfolio-heading, .join-us-heading {
+    margin: 200px auto 50px;
   }
 }
 
