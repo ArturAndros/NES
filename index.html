@@ -612,13 +612,76 @@
                             <img src="assets/images/portfolio/google%20play%20button-01.png">
                         </a>
 
-                        <a class="about-game-btn">
+                        <a class="about-game-btn" onclick="openGame('tic-tac-toe')" >
                             О игре
                         </a>
                     </div>
                 </div>
             </div>
         </div>
+        <div id="tic-tac-toe" class="portfolio_window js_window_root" data-scroll-lock-scrollable="">
+                <div class="portfolio_window__info_block js_reset_scroll" data-scroll-lock-scrollable="">
+                    <div class="portfolio_window__miscellaneous_container">
+                        <div>
+                            <div class="portfolio_window__logo_and_close">
+                                <img class="portfolio_window_close" alt="close" src="assets/images/portfolio/cancel-01.svg" onclick="closeGame('tic-tac-toe')">
+                            </div>
+                        </div>
+                        <div class="portfolio_window__platforms_and_thumbnail_block">
+                            <div class="portfolio_window__platforms_and_thumbnail">
+                                <img class="portfolio_window__info_thumbnail js_thumbnail_image" alt="Game thumbnail" src="assets/images/portfolio/Tic-tac-toe/tic%20tac%20toe%20wave%20logo-01.png">
+                                <div class="portfolio_window__platforms">
+                                    <img src="assets/images/portfolio/apple%20mark-01.svg">
+                                    <img src="assets/images/portfolio/android%20mark-01.svg">
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio_window__text_block">
+                        <h3 class="portfolio_window__heading portfolio_window__heading--bold js_name">TIC TAC TOE</h3>
+                        <h4 class="portfolio_window__heading">Overview</h4>
+                        <p class="portfolio_window__text js_overview">Endless Runner game based on 80 years style, to bring user back to past and feel nostalgic. The main concept this game is a car drift, use turbo, match coins and upgrade your car with new engine and new details.</p>
+                        <h3 class="portfolio_window__heading">Description</h3>
+                        <p class="portfolio_window__text js_description">In a game you can buy new cars, upgrade, paint and also modify details. When you drive, your details is breaking and after breaking one of them, you cannot drive on and when it"s critical damage, your car is exploding, but you can repair it. Every car and detail has moving characteristics. The main currency is lightnings, you can exchange golds to lightnings.</p>
+                        <h3 class="portfolio_window__heading">Technology stack</h3>
+                        <p class="portfolio_window__text js_technologies">Unity 3D/C#/Native + Android Studio/Xcode/Swift</p>
+                    </div>
+                </div>
+                <div class="portfolio_window__image_block js_reset_scroll" data-scroll-lock-scrollable=""><img class="portfolio_window__image js_full_image" alt="Game images" src="assets/images/portfolio/Tic-tac-toe/mockup%20tic%20tak%20toe%20preview.jpg"></div>
+            </div>
+        <div id="endless-runner" class="portfolio_window js_window_root" data-scroll-lock-scrollable="">
+            <div class="portfolio_window__info_block js_reset_scroll" data-scroll-lock-scrollable="">
+                <div class="portfolio_window__miscellaneous_container">
+                    <div>
+                        <div class="portfolio_window__logo_and_close">
+                            <img class="portfolio_window_close" alt="close" src="assets/images/portfolio/cancel-01.svg" onclick="closeGame('endless-runner')">
+                        </div>
+                    </div>
+                    <div class="portfolio_window__platforms_and_thumbnail_block">
+                        <div class="portfolio_window__platforms_and_thumbnail">
+                            <img class="portfolio_window__info_thumbnail js_thumbnail_image" alt="Game thumbnail" src="assets/images/portfolio/EndlessRunner/Endless%20runner%20logo-01.png">
+                            <div class="portfolio_window__platforms">
+                                <img src="assets/images/portfolio/apple%20mark-01.svg">
+                                <img src="assets/images/portfolio/android%20mark-01.svg">
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio_window__text_block">
+                    <h3 class="portfolio_window__heading portfolio_window__heading--bold js_name">Endless Runner</h3>
+                    <h4 class="portfolio_window__heading">Overview</h4>
+                    <p class="portfolio_window__text js_overview">Endless Runner game based on 80 years style, to bring user back to past and feel nostalgic. The main concept this game is a car drift, use turbo, match coins and upgrade your car with new engine and new details.</p>
+                    <h3 class="portfolio_window__heading">Description</h3>
+                    <p class="portfolio_window__text js_description">In a game you can buy new cars, upgrade, paint and also modify details. When you drive, your details is breaking and after breaking one of them, you cannot drive on and when it"s critical damage, your car is exploding, but you can repair it. Every car and detail has moving characteristics. The main currency is lightnings, you can exchange golds to lightnings.</p>
+                    <h3 class="portfolio_window__heading">Technology stack</h3>
+                    <p class="portfolio_window__text js_technologies">Unity 3D/C#/Native + Android Studio/Xcode/Swift</p>
+                </div>
+            </div>
+            <div class="portfolio_window__image_block js_reset_scroll" data-scroll-lock-scrollable=""><img class="portfolio_window__image js_full_image" alt="Game images" src="assets/images/portfolio/EndlessRunner/mockup%20Endless%20Runner.jpg"></div>
+        </div>
+
         <div class="portfolio-info-column">
             <div class="game-example">
                 <div class="game-example-column">
@@ -637,13 +700,14 @@
                             <img src="assets/images/portfolio/google%20play%20button-01.png">
                         </a>
 
-                        <a class="about-game-btn">
+                        <a class="about-game-btn" onclick="openGame('endless-runner')">
                             О игре
                         </a>
                     </div>
                 </div>
             </div>
         </div>
+
     </div>
 </div>
 <script src="assets/scripts/scripts.js"> </script>

@@ -65,3 +65,16 @@ function openTab(evt, id){
 
 }
 document.getElementById("defaultOpen").click();
+
+function openGame(id) {
+    if (window.matchMedia("(min-width: 960px)").matches) {
+        /* the viewport is at least 400 pixels wide */
+        document.getElementById(id).style.display='flex';
+    } else {
+        /* the viewport is less than 400 pixels wide */
+        document.getElementById(id).style.display='block';
+    }
+}
+function closeGame(id) {
+    document.getElementById(id).style.display="none";
+}

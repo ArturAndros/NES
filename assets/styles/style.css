@@ -772,6 +772,126 @@ nav a {
   font-size: 21px;
 }
 
+#tic-tac-toe, #endless-runner {
+  display: none;
+}
+
+.portfolio_window {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  height: calc(var(--vh, 1vh) * 100);
+  background-color: black;
+  z-index: 100;
+  overflow: auto;
+  transition: transform 0.7s;
+  transform: none;
+}
+
+.portfolio_window__info_block {
+  width: 100%;
+  padding: 40px;
+  overflow-y: auto;
+  box-sizing: border-box;
+}
+
+.portfolio_window__miscellaneous_container {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.portfolio_window__text_block {
+  transition: 1s opacity;
+  transition-delay: 0.6s;
+  opacity: 1;
+  text-align: left;
+}
+
+.portfolio_window__miscellaneous_container {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.portfolio_window_close {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.portfolio_window__platforms {
+  display: flex;
+  height: 36px;
+  position: absolute;
+  right: 80px;
+  top: 80px;
+}
+.portfolio_window__platforms img {
+  width: 44px;
+  margin-right: 15px;
+}
+
+.portfolio_window__image {
+  display: block;
+  width: 100%;
+}
+
+.portfolio_window__text_block {
+  transition: 1s opacity;
+  transition-delay: 0.6s;
+  opacity: 1;
+  text-align: left;
+}
+
+.portfolio_window__heading--bold {
+  font-weight: 700;
+}
+
+.portfolio_window__heading {
+  font-size: 30px;
+  margin: 30px 0;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+.portfolio_window__text {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+@media (min-width: 960px) {
+  .portfolio_window {
+    display: flex;
+    flex-direction: row-reverse;
+    overflow: hidden;
+  }
+}
+.portfolio_window__image_block {
+  width: 100%;
+  overflow-y: auto;
+}
+
+@media (min-width: 960px) {
+  .portfolio_window__info_block {
+    width: 50%;
+  }
+}
+@media (min-width: 960px) {
+  .portfolio_window__image_block {
+    width: 50%;
+  }
+}
 @media (max-width: 1440px) {
   .about-us {
     margin: 190px 15px 0;
@@ -1281,6 +1401,20 @@ nav a {
 
   .portfolio-heading, .join-us-heading {
     margin: 200px auto 50px;
+  }
+
+  .portfolio_window__info_thumbnail {
+    width: 185px;
+    margin-bottom: 100px;
+  }
+
+  .portfolio_window__platforms img {
+    width: 20px;
+    margin-right: 20px;
+  }
+
+  .portfolio_window__platforms {
+    right: 60px;
   }
 }
 
