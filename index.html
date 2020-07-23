@@ -18,22 +18,24 @@
     </div>
 
     <div class="nav-content">
+        <a href="">
         <div class="logo">
             <img src="assets/images/header/nes-logo-01.png">
         </div>
+        </a>
         <div class="menu">
-            <a href="">О нас</a>
-            <a href="">Актуальность</a>
-            <a href="">О курсе</a>
-            <a href="">Присоединиться</a>
-            <a href="">Портфолио</a>
+            <a href="#about-us">О нас</a>
+            <a href="#relevance">Актуальность</a>
+            <a href="#about-course">О курсе</a>
+            <a href="#join-us">Присоединиться</a>
+            <a href="#portfolio">Портфолио</a>
         </div>
         <div class="menu-mobile" id="burger-menu" style="display: none">
-            <a href="">О нас</a>
-            <a href="">Актуальность</a>
-            <a href="">О курсе</a>
-            <a href="">Присоединиться</a>
-            <a href="">Портфолио</a>
+            <a href="#about-us">О нас</a>
+            <a href="#relevance">Актуальность</a>
+            <a href="#about-course">О курсе</a>
+            <a href="#join-us">Присоединиться</a>
+            <a href="#portfolio">Портфолио</a>
         </div>
     </div>
 </nav>
@@ -83,7 +85,7 @@
 
     </div>
 </header>
-<div class="about-us">
+<div id="about-us" class="about-us">
     <div class="about-us-column">
         <img src="assets/images/about-us/bg-particles-01.svg">
     </div>
@@ -123,7 +125,7 @@
         </div>
     </div>
 </div>
-<div class="relevance">
+<div id="relevance" class="relevance">
     <div class="relevance-heading">
         <div class="line-over-text">
             <img src="assets/images/lines/line%20green-01.svg">
@@ -193,7 +195,7 @@
         </div>
     </div>
 </div>
-<div class="about-course">
+<div id="about-course" class="about-course">
     <div class="about-course-main-info">
         <div class="about-course-main-info-column">
             <div class="make-your-game-banner">
@@ -254,7 +256,7 @@
         </div>
     </div>
 </div>
-<div class="join-us">
+<div id="join-us" class="join-us">
     <div class="join-us-heading">
         <div class="line-over-text">
             <img src="assets/images/lines/line%20orange-01.svg">
@@ -581,13 +583,104 @@
             </div>
 
             <div class="join-us-buttons">
-                <img alt="to-know-price" src="assets/images/join-us/to%20know%20price%20button-01.svg">
+                <img alt="to-know-price" src="assets/images/join-us/to%20know%20price%20button-01.svg" onclick="openPopUp('price')">
                 <img alt="apply" src="assets/images/join-us/apply-01.svg">
+            </div>
+            <div class="price-pop-up" id="price">
+                <img class="pop-up-close" src="assets/images/join-us/price/cancel%20orange-01.svg" onclick="closeGame('price')">
+
+
+                <div class="price-info">
+
+                    <div class="price-info-card border-radius-purple">
+                        <img class="price-level" src="assets/images/join-us/Beginner-01.svg">
+                        <div class="education-time">
+                            <img src="assets/images/join-us/clock%20%20icon%20volet-01.svg">
+                            <div class="education-time-text">
+                                <span class="num-lessons text-color-purple">10 занятий</span>
+                                <span class="time-duration">1,5 месяца</span>
+                            </div>
+                        </div>
+                        <div class="free-places text-align-left">
+                            <span>Осталось </br>мест:</span>
+                            <div class="free-place-number border-radius-purple text-color-purple">3</div>
+                        </div>
+                        <div class=" relevant-price ">
+                        <span>
+                            Акутальная цена:
+                        </span>
+                            <div>
+                                <span class="price-number">
+                                    6000
+                                </span>
+                                <span class="currency">
+                                    грн
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="price-info-card border-radius-orange">
+                        <img class="price-level" src="assets/images/join-us/Middle-01.svg">
+                        <div class="education-time">
+                            <img src="assets/images/join-us/clock%20%20icon%20orange-01.svg">
+                            <div class="education-time-text">
+                                <span class="num-lessons text-color-yellow">15 занятий</span>
+                                <span class="time-duration">2 месяца</span>
+                            </div>
+                        </div>
+                        <div class="free-places text-align-left">
+                            <span>Осталось </br>мест:</span>
+                            <div class="free-place-number border-radius-orange text-color-yellow">3</div>
+                        </div>
+                        <div class=" relevant-price ">
+                        <span>
+                            Акутальная цена:
+                        </span>
+                            <div>
+                                <span class="price-number">
+                                    8000
+                                </span>
+                                <span class="currency">
+                                    грн
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="price-info-card border-radius-green">
+                        <img class="price-level" src="assets/images/join-us/Advanced-01.svg">
+                        <div class="education-time">
+                            <img src="assets/images/join-us/clock%20%20icon%20green-01.svg">
+                            <div class="education-time-text">
+                                <span class="num-lessons text-color-green">15 занятий</span>
+                                <span class="time-duration">2 месяца</span>
+                            </div>
+                        </div>
+                        <div class="free-places text-align-left">
+                            <span>Осталось </br>мест:</span>
+                            <div class="free-place-number border-radius-green text-color-green">3</div>
+                        </div>
+                        <div class=" relevant-price ">
+                        <span>
+                            Акутальная цена:
+                        </span>
+                            <div>
+                                <span class="price-number">
+                                    10000
+                                </span>
+                                <span class="currency">
+                                    грн
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
             </div>
         </div>
     </div>
 </div>
-<div class="portfolio">
+<div id="portfolio" class="portfolio">
     <div class="portfolio-heading">
         <div class="line-over-text">
             <img src="assets/images/lines/line%20purple-01.svg">
@@ -612,7 +705,7 @@
                             <img src="assets/images/portfolio/google%20play%20button-01.png">
                         </a>
 
-                        <a class="about-game-btn" onclick="openGame('tic-tac-toe')" >
+                        <a class="about-game-btn" onclick="openPopUp('tic-tac-toe')" >
                             О игре
                         </a>
                     </div>
@@ -700,7 +793,7 @@
                             <img src="assets/images/portfolio/google%20play%20button-01.png">
                         </a>
 
-                        <a class="about-game-btn" onclick="openGame('endless-runner')">
+                        <a class="about-game-btn" onclick="openPopUp('endless-runner')">
                             О игре
                         </a>
                     </div>

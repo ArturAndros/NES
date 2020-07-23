@@ -199,6 +199,7 @@ nav .nav-content {
   margin: 15px auto;
   flex-direction: row;
   justify-content: space-between;
+  z-index: 5;
 }
 nav .logo {
   width: 150px;
@@ -694,6 +695,162 @@ nav a {
   width: 240px;
 }
 
+.price-pop-up {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  height: calc(var(--vh, 1vh) * 100);
+  background-color: black;
+  z-index: 100;
+  overflow: auto;
+  transition: transform 0.7s;
+  transform: none;
+}
+
+.price-info {
+  width: 80%;
+  margin: 250px auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.price-info-card {
+  width: 400px;
+  padding: 60px;
+  box-sizing: border-box;
+  text-align: center;
+  border: 2px solid;
+  border-radius: 20px;
+}
+
+.education-time {
+  display: flex;
+  text-align: left;
+}
+.education-time img {
+  width: 35px;
+  margin-right: 40px;
+}
+.education-time .num-lessons {
+  font-size: 21px;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+.education-time .time-duration {
+  font-size: 16px;
+  font-weight: lighter;
+  color: #b6c1c6;
+}
+
+.relevant-price {
+  margin-top: 50px;
+  color: #b6c1c6;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-weight: bold;
+  font-size: 21px;
+}
+.relevant-price div {
+  margin-top: 30px;
+}
+.relevant-price span {
+  text-align: left;
+}
+
+.price-number {
+  font-weight: bold;
+  font-size: 31px;
+  margin-right: 20px;
+}
+
+.text-align-left {
+  text-align: left;
+}
+
+.border-radius-purple {
+  border-color: #9543ff;
+}
+
+.border-radius-orange {
+  border-color: #ffc50b;
+}
+
+.border-radius-green {
+  border-color: #02ffaf;
+}
+
+.education-time {
+  margin-bottom: 25px;
+}
+
+.education-time-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.price-level {
+  width: 185px;
+  margin-bottom: 80px;
+}
+
+.pop-up-close {
+  width: 50px;
+  position: absolute;
+  right: 105px;
+  top: 70px;
+}
+
+@media (max-width: 1450px) {
+  .price-info {
+    width: 100%;
+    justify-content: space-around;
+  }
+}
+@media (max-width: 1200px) {
+  .price-info-card {
+    width: 350px;
+  }
+}
+@media (max-width: 1100px) {
+  .price-info {
+    margin: 160px auto;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .price-info-card {
+    margin-bottom: 50px;
+  }
+}
+@media (max-width: 600px) {
+  .pop-up-close {
+    width: 50px;
+    position: absolute;
+    right: 25px;
+    top: 25px;
+  }
+
+  .price-info-card {
+    width: 300px;
+    padding: 30px;
+  }
+
+  .price-level {
+    width: 140px;
+    margin-bottom: 20px;
+  }
+
+  .relevant-price {
+    margin-top: 0;
+  }
+
+  .relevant-price div {
+    margin-top: 10px;
+  }
+}
 .portfolio-heading, .join-us-heading {
   max-width: 1300px;
   display: flex;

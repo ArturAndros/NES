@@ -66,7 +66,7 @@ function openTab(evt, id){
 }
 document.getElementById("defaultOpen").click();
 
-function openGame(id) {
+function openPopUp(id) {
     if (window.matchMedia("(min-width: 960px)").matches) {
         /* the viewport is at least 400 pixels wide */
         document.getElementById(id).style.display='flex';
@@ -77,4 +77,7 @@ function openGame(id) {
 }
 function closeGame(id) {
     document.getElementById(id).style.display="none";
+}
+function openPrice() {
+    document.getElementById('price').style.display="flex"
 }
