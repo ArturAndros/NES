@@ -78,6 +78,6 @@ function openPopUp(id) {
 function closeGame(id) {
     document.getElementById(id).style.display="none";
 }
-function openPrice() {
-    document.getElementById('price').style.display="flex"
+function openPrice(id) {
+    document.getElementById('price').style.display="block"
 }
