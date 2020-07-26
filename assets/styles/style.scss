@@ -1072,6 +1072,7 @@ flex-direction: column;
 }
 #burger{
 display: block;
+  z-index: 6;
 }
 .about-us-column:nth-child(1){
 display: none;
