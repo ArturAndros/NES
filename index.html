@@ -582,10 +582,10 @@
                 </div>
             </div>
 
-            <div class="join-us-buttons">
-                <img alt="to-know-price" src="assets/images/join-us/to%20know%20price%20button-01.svg" onclick="openPrice('price')">
-                <img alt="apply" src="assets/images/join-us/apply-01.svg">
-            </div>
+            <!--<div class="join-us-buttons">-->
+                <!--<img alt="to-know-price" src="assets/images/join-us/to%20know%20price%20button-01.svg" onclick="openPrice('price')">-->
+                <!--<img alt="apply" src="assets/images/join-us/apply-01.svg">-->
+            <!--</div>-->
             <div class="price-pop-up" id="price">
                 <img class="pop-up-close" src="assets/images/join-us/price/cancel%20orange-01.svg" onclick="closeGame('price')">
 
@@ -676,6 +676,50 @@
 
                 </div>
 
+            </div>
+        </div>
+    </div>
+    <div class="contact">
+        <form class="contact-form">
+            <div class="contact-form-col">
+                <img alt="join course" class="contact-form-name" src="assets/images/contact-form/join-course-01.svg">
+                <div class="join-us-menu-choose-lvl">
+                    <div class="join-us-menu-choose-lvl-element beginner check-lvl-element" onclick="chooseLevel(event,'beginner-check')"></div>
+                    <div class="join-us-menu-choose-lvl-element middle check-lvl-element" id="defaultOpenCheck" onclick="chooseLevel(event,'middle-check')" ></div>
+                    <div class="join-us-menu-choose-lvl-element advanced check-lvl-element" onclick="chooseLevel(event,'advance-check')"></div>
+                   <div class="checkboxes">
+                       <select name="level">
+                           <option>LEVEL</option>
+                           <option value="beginner-check" id="beginner-check">beginner</option>
+                           <option value="middle-check" id="middle-check"> middle</option>
+                           <option value="advance-check" id="advance-check">advance</option>
+                       </select>
+                   </div>
+
+                </div>
+            </div>
+            <div class="contact-form-col">
+                <div class="input-info">
+                    <input required class="input-name" type="text" size="30" placeholder="Имя Фамилия">
+                    <input required class="input-contact" type="email" size="30" placeholder="Email">
+                    <input required class="input-contact" type="text" size="30" placeholder="Телефон">
+                </div>
+                <div class="join-us-buttons">
+                    <img alt="to-know-price" src="assets/images/join-us/to%20know%20price%20button-01.svg" onclick="openPrice('price')">
+                    <img alt="apply" src="assets/images/join-us/apply-01.svg">
+                </div>
+            </div>
+        </form>
+        <div class="contact-media">
+            <div class="media-icons">
+                <img src="assets/images/about-us/telegram-icon-01.svg">
+                <img src="assets/images/about-us/instagram-icon-01.svg">
+                <img src="assets/images/about-us/facebook-icon-01.svg">
+                <img src="assets/images/about-us/share-icon-01.svg">
+            </div>
+            <div class="phones">
+                <p>+38(098)5567345</p>
+                <p>+38(093)5567389</p>
             </div>
         </div>
     </div>

@@ -37,7 +37,7 @@ button{
   -o-transition: .5s ease-in-out;
   transition: .5s ease-in-out;
   cursor: pointer;
-  z-index: 3;
+  z-index: 6;
 }
 #burger span {
   display: block;
@@ -216,9 +216,10 @@ nav {
   position: absolute;
   top: 0;
   left: 0;
-  background: #1D1C21;
+  background: black;
   width: 100%;
   height: 800px;
+  z-index: 7;
   a{
     margin: 50px auto;
     font-size: 19px;
@@ -447,7 +448,7 @@ nav {
   width: 150px;
   height: 48px;
   opacity: 0.4;
-  z-index: 4;
+  z-index: 2;
 }
 .join-us-menu-choose-lvl-element:hover{
   //width: 180px;
@@ -682,6 +683,81 @@ color: #02ffaf;
     width: 240px;
   }
 }
+///////CONTACT FORM////////
+.contact{
+
+}
+.checkboxes{
+  display: none;
+}
+.contact-media{
+  display: flex;
+  width: 700px;
+  margin: 50px auto;
+  justify-content: space-between;
+  .media-icons{
+    position: unset;
+    flex-direction: row;
+    width: 390px;
+    height: auto;
+  }
+  .phones{
+    p{
+      font-size: 21px;
+      color: #FFC50B;
+      font-weight: bold;
+    }
+  }
+}
+.contact-form{
+  display: flex;
+  border: 2px solid #ffc50b;
+  border-radius: 50px;
+  max-width: 1130px;
+  margin: 0 auto;
+  padding: 70px 70px 60px;
+  .join-us-menu-choose-lvl {
+    margin: 70px 0 0;
+    width: 520px;
+  }
+  .join-us-buttons {
+    margin: 100px 0 0;
+  }
+}
+.input-info{
+  width: 540px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  input{
+    background-color: black;
+    border: 2px solid #ffc50b;
+    border-radius: 15px;
+    color: #FFC50B;
+    line-height: 45px;
+    outline: none;
+    padding-left: 15px;
+
+  }
+  input::placeholder{
+    color: #5c5c5c;
+  }
+}
+.input-name{
+  width: 520px;
+  margin-bottom: 20px;
+}
+.input-contact{
+  width: 240px;
+}
+.contact-form-name{
+  width: 385px;
+  margin-bottom: 20px;
+}
+.contact-form-col{
+  width: 50%;
+}
 //////TO KNOW PRICE
 .price-pop-up{
   display: none;
@@ -692,7 +768,7 @@ color: #02ffaf;
   height: 100vh;
   height: calc(var(--vh, 1vh) * 100);
   background-color: black;
-  z-index: 100;
+  z-index: 7;
   overflow: auto;
   transition: transform 0.7s;
   transform: none;
@@ -1071,8 +1147,7 @@ flex-direction: column;
 }
 }
 #burger{
-display: block;
-  z-index: 6;
+  display: block;
 }
 .about-us-column:nth-child(1){
 display: none;
@@ -1156,6 +1231,36 @@ width: 470px;
 .relevance-heading-text {
 margin-left: 0;
 }
+  .contact-form{
+    flex-direction: column;
+    max-width: 540px;
+    margin: 250px auto 100px;
+  }
+  .contact-form-col{
+    width: 100%;
+    margin-bottom: 25px;
+  }
+  .contact-form .join-us-menu-choose-lvl {
+    margin: 25px 0 50px;
+    width: 545px;
+  }
+  .contact-form .join-us-buttons {
+    margin: 50px 0 0;
+    width: 100%;
+  }
+  .contact-media{
+    flex-direction: column;
+    align-items: center;
+    .media-icons{
+      flex-direction: row;
+      width: 390px;
+      height: auto;
+      order: unset;
+      margin:0 auto 25px;
+    }
+
+  }
+
 }
 @media(max-width: 800px) {
 header {
@@ -1494,5 +1599,55 @@ margin: 200px auto 50px;
   }
   .portfolio_window__platforms {
     right: 60px;
+  }
+
+  .contact-form{
+    width: 80%;
+    margin: 200px auto 100px;
+    padding: 15px;
+    border-radius: 25px;
+    .join-us-buttons img {
+      width: 140px;
+    }
+  }
+  .contact-form-name {
+    width: 235px;
+    margin: 10px 0 0;
+  }
+  .contact-form .join-us-menu-choose-lvl {
+    margin: 25px 0 15px;
+    width: 100%;
+  }
+  .input-info{
+    width: 100%;
+    input{
+      line-height: 27px;
+      border-radius: 10px;
+    }
+    .input-contact {
+      width: 42%;
+    }
+  }
+  .contact-media{
+    width: 80%;
+    margin: 0 auto;
+    .media-icons{
+      width: 100%;
+    }
+    .phones{
+      p{
+        font-size: 16px;
+      }
+
+    }
+  }
+
+}
+@media(max-width: 330px) {
+  .contact-form .join-us-buttons img {
+    width: 120px;
+  }
+  .input-info .input-contact {
+    width: 40%;
   }
 }

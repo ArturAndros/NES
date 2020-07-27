@@ -65,6 +65,16 @@ function openTab(evt, id){
 
 }
 document.getElementById("defaultOpen").click();
+function chooseLevel(evt,id){
+    let tablinks = document.getElementsByClassName("check-lvl-element");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active-btn-lvl", "");
+    }
+    evt.currentTarget.className += " active-btn-lvl";
+    let click = document.getElementById(id);
+    click.click();
+}
+document.getElementById("defaultOpenCheck").click();
 
 function openPopUp(id) {
     if (window.matchMedia("(min-width: 960px)").matches) {
