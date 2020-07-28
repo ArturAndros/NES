@@ -681,6 +681,7 @@ color: #02ffaf;
   margin-left: 100px;
   img{
     width: 240px;
+    cursor: pointer;
   }
 }
 ///////CONTACT FORM////////
@@ -700,6 +701,9 @@ color: #02ffaf;
     flex-direction: row;
     width: 390px;
     height: auto;
+    img{
+      cursor: pointer;
+    }
   }
   .phones{
     p{
@@ -1519,6 +1523,7 @@ margin-right: 25px;
 .join-us-menu-choose-lvl-element{
 width: 90px;
 height: 30px;
+  cursor: pointer;
 }
 
 .join-us-menu-choose-lvl {

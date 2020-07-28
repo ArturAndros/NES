@@ -694,6 +694,7 @@ nav a {
 }
 .join-us-buttons img {
   width: 240px;
+  cursor: pointer;
 }
 
 .checkboxes {
@@ -711,6 +712,9 @@ nav a {
   flex-direction: row;
   width: 390px;
   height: auto;
+}
+.contact-media .media-icons img {
+  cursor: pointer;
 }
 .contact-media .phones p {
   font-size: 21px;
@@ -1585,6 +1589,7 @@ nav a {
   .join-us-menu-choose-lvl-element {
     width: 90px;
     height: 30px;
+    cursor: pointer;
   }
 
   .join-us-menu-choose-lvl {
