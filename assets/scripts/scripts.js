@@ -103,5 +103,5 @@ form.addEventListener('submit', e => {
         .catch(error => console.error('Error!', error.message))
 })
 function submitB() {
-    document.getElementById('submit').click();
+    document.getElementById('send').click();
 }
