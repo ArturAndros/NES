@@ -91,3 +91,17 @@ function closeGame(id) {
 function openPrice(id) {
     document.getElementById('price').style.display="block"
 }
+
+const scriptURL = 'https://script.google.com/macros/s/AKfycbzp5NEMJWJXlUi_01gSXFBb3J5ob3d-jGTZyO6r6AcaIktPgHg/exec';
+
+const form = document.forms['submit-to-google-sheet']
+
+form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => console.log('Success!', response))
+        .catch(error => console.error('Error!', error.message))
+})
+function submitB() {
+    document.getElementById('submit').click();
+}

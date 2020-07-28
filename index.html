@@ -680,8 +680,8 @@
         </div>
     </div>
     <div class="contact">
-        <form class="contact-form">
-            <div class="contact-form-col">
+        <form class="contact-form" name="submit-to-google-sheet">
+        <div class="contact-form-col">
                 <img alt="join course" class="contact-form-name" src="assets/images/contact-form/join-course-01.svg">
                 <div class="join-us-menu-choose-lvl">
                     <div class="join-us-menu-choose-lvl-element beginner check-lvl-element" onclick="chooseLevel(event,'beginner-check')"></div>
@@ -700,15 +700,16 @@
             </div>
             <div class="contact-form-col">
                 <div class="input-info">
-                    <input required class="input-name" type="text" size="30" placeholder="Имя Фамилия">
-                    <input required class="input-contact" type="email" size="30" placeholder="Email">
-                    <input required class="input-contact" type="text" size="30" placeholder="Телефон">
+                    <input name="name" required class="input-name" type="text" size="30" placeholder="Имя Фамилия">
+                    <input name="email" required class="input-contact" type="email" size="30" placeholder="Email">
+                    <input name="phone" required class="input-contact" type="text" size="30" placeholder="Телефон">
                 </div>
                 <div class="join-us-buttons">
                     <img alt="to-know-price" src="assets/images/join-us/to%20know%20price%20button-01.svg" onclick="openPrice('price')">
-                    <img alt="apply" src="assets/images/join-us/apply-01.svg">
+                    <img alt="apply" src="assets/images/join-us/apply-01.svg" onclick="submitB()">
                 </div>
             </div>
+            <button style="display: none" id='send' type="submit">Send</button>
         </form>
         <div class="contact-media">
             <div class="media-icons">
