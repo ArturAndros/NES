@@ -102,6 +102,7 @@ form.addEventListener('submit', e => {
         .then(response => console.log('Success!', response))
         .catch(error => console.error('Error!', error.message))
 })
+
 function submitB() {
     document.getElementById('send').click();
 }
