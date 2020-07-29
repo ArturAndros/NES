@@ -271,6 +271,7 @@ nav {
   top: 1570px;
   img{
     width: 40px;
+    cursor: pointer;
   }
   img:nth-child(3){
     width: 20px;
@@ -449,6 +450,7 @@ nav {
   height: 48px;
   opacity: 0.4;
   z-index: 2;
+  cursor: pointer;
 }
 .join-us-menu-choose-lvl-element:hover{
   //width: 180px;
@@ -502,6 +504,7 @@ nav {
 .join-us-icon-el{
   width: 38px;
   margin-bottom: 75px;
+  cursor: pointer;
 }
 .join-us-icon-el:nth-child(4){
   width: 46px;
@@ -701,9 +704,6 @@ color: #02ffaf;
     flex-direction: row;
     width: 390px;
     height: auto;
-    img{
-      cursor: pointer;
-    }
   }
   .phones{
     p{
@@ -1523,7 +1523,6 @@ margin-right: 25px;
 .join-us-menu-choose-lvl-element{
 width: 90px;
 height: 30px;
-  cursor: pointer;
 }
 
 .join-us-menu-choose-lvl {

@@ -106,10 +106,9 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/styles/style.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="392">
-              <caret line="683" column="20" selection-start-line="683" selection-start-column="20" selection-end-line="683" selection-end-column="20" />
+            <state relative-caret-position="282">
+              <caret line="705" column="17" selection-start-line="705" selection-start-column="17" selection-end-line="705" selection-end-column="17" />
               <folding>
-                <element signature="e#11679#11685#0" />
                 <element signature="e#11466#11729#0" />
                 <element signature="e#11733#11739#0" />
                 <element signature="e#11995#12014#0" />
@@ -159,8 +158,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/scripts/scripts.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="106" column="1" lean-forward="true" selection-start-line="106" selection-start-column="1" selection-end-line="106" selection-end-column="1" />
+            <state relative-caret-position="176">
+              <caret line="93" lean-forward="true" selection-start-line="93" selection-end-line="93" />
               <folding>
                 <element signature="n#!!block;n#openBurger#0" />
                 <element signature="n#!!block;n#openLevel#0" />
@@ -186,8 +185,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>defa</find>
-      <find>defau</find>
       <find>time</find>
       <find>hover</find>
       <find>прис</find>
@@ -213,9 +210,11 @@
       <find>mobile</find>
       <find>med</find>
       <find>contact</find>
-      <find>show</find>
-      <find>defaultOpenCheck</find>
       <find>join-us-b</find>
+      <find>defaultOpenCheck</find>
+      <find>choose-lvl</find>
+      <find>media-icons</find>
+      <find>show</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -325,12 +324,12 @@
       <updated>1594312682777</updated>
       <workItem from="1594312684804" duration="52171000" />
       <workItem from="1594848709546" duration="32856000" />
-      <workItem from="1595158427840" duration="90222000" />
+      <workItem from="1595158427840" duration="92040000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="175249000" />
+    <option name="totallyTimeSpent" value="177067000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -503,28 +502,11 @@
     <entry file="file://$PROJECT_DIR$/assets/images/contact-form/join-course-01.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/scripts/scripts.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="106" column="1" lean-forward="true" selection-start-line="106" selection-start-column="1" selection-end-line="106" selection-end-column="1" />
-          <folding>
-            <element signature="n#!!block;n#openBurger#0" />
-            <element signature="n#!!block;n#openLevel#0" />
-            <element signature="n#!!block;n#openTab#0" />
-            <element signature="n#!!block;n#chooseLevel#0" />
-            <element signature="n#!!block;n#f#0" />
-            <element signature="n#!!block;n#f#0" />
-            <element signature="n#!!block;n#f#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/styles/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="683" column="20" selection-start-line="683" selection-start-column="20" selection-end-line="683" selection-end-column="20" />
+        <state relative-caret-position="282">
+          <caret line="705" column="17" selection-start-line="705" selection-start-column="17" selection-end-line="705" selection-end-column="17" />
           <folding>
-            <element signature="e#11679#11685#0" />
             <element signature="e#11466#11729#0" />
             <element signature="e#11733#11739#0" />
             <element signature="e#11995#12014#0" />
@@ -566,6 +548,22 @@
             <element signature="e#16935#16985#0" />
             <element signature="e#17021#17351#0" />
             <element signature="e#17378#17721#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/scripts/scripts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="93" lean-forward="true" selection-start-line="93" selection-end-line="93" />
+          <folding>
+            <element signature="n#!!block;n#openBurger#0" />
+            <element signature="n#!!block;n#openLevel#0" />
+            <element signature="n#!!block;n#openTab#0" />
+            <element signature="n#!!block;n#chooseLevel#0" />
+            <element signature="n#!!block;n#f#0" />
+            <element signature="n#!!block;n#f#0" />
+            <element signature="n#!!block;n#f#0" />
           </folding>
         </state>
       </provider>

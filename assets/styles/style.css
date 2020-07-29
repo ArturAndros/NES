@@ -273,6 +273,7 @@ nav a {
 }
 .media-icons img {
   width: 40px;
+  cursor: pointer;
 }
 .media-icons img:nth-child(3) {
   width: 20px;
@@ -461,6 +462,7 @@ nav a {
   height: 48px;
   opacity: 0.4;
   z-index: 2;
+  cursor: pointer;
 }
 
 .join-us-menu-choose-lvl-element:hover {
@@ -523,6 +525,7 @@ nav a {
 .join-us-icon-el {
   width: 38px;
   margin-bottom: 75px;
+  cursor: pointer;
 }
 
 .join-us-icon-el:nth-child(4) {
@@ -712,9 +715,6 @@ nav a {
   flex-direction: row;
   width: 390px;
   height: auto;
-}
-.contact-media .media-icons img {
-  cursor: pointer;
 }
 .contact-media .phones p {
   font-size: 21px;
@@ -1589,7 +1589,6 @@ nav a {
   .join-us-menu-choose-lvl-element {
     width: 90px;
     height: 30px;
-    cursor: pointer;
   }
 
   .join-us-menu-choose-lvl {
