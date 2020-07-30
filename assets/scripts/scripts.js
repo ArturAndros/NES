@@ -93,15 +93,15 @@ function openPrice(id) {
 }
 
 const scriptURL = 'https://script.google.com/macros/s/AKfycbzp5NEMJWJXlUi_01gSXFBb3J5ob3d-jGTZyO6r6AcaIktPgHg/exec';
-
-const form = document.forms['submit-to-google-sheet']
+const scriptURL2 = 'https://script.google.com/macros/s/AKfycbxiguP6Qc4CBy9MGoTEzMap11R3bIOjwwp53tv_r9k9gGobkBEI/exec';
+const form = document.forms['submit-to-google-sheet'];
 
 form.addEventListener('submit', e => {
     e.preventDefault()
-    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+    fetch(scriptURL2, { method: 'POST', body: new FormData(form)})
         .then(response => console.log('Success!', response))
         .catch(error => console.error('Error!', error.message))
-})
+});
 
 function submitB() {
     document.getElementById('send').click();
