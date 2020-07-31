@@ -80,16 +80,20 @@ function openPopUp(id) {
     if (window.matchMedia("(min-width: 960px)").matches) {
         /* the viewport is at least 400 pixels wide */
         document.getElementById(id).style.display='flex';
+        document.body.classList.add('my-body-noscroll-class');
     } else {
         /* the viewport is less than 400 pixels wide */
         document.getElementById(id).style.display='block';
+        document.body.classList.add('my-body-noscroll-class');
     }
 }
 function closeGame(id) {
     document.getElementById(id).style.display="none";
+    document.body.classList.remove('my-body-noscroll-class');
 }
 function openPrice(id) {
-    document.getElementById('price').style.display="block"
+    document.getElementById(id).style.display="block"
+    document.body.classList.add('my-body-noscroll-class');
 }
 
 const scriptURL = 'https://script.google.com/macros/s/AKfycbzp5NEMJWJXlUi_01gSXFBb3J5ob3d-jGTZyO6r6AcaIktPgHg/exec';

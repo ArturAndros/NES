@@ -3,9 +3,11 @@ $hoverColor:#ffc50b;
 body{
   font-family: 'Montserrat', sans-serif;
   margin: 0;
-  //background-color: #1D1C21;
   background-color: black;
   color: white;
+}
+.my-body-noscroll-class {
+  overflow: hidden;
 }
 a{
   text-decoration: none;
@@ -857,6 +859,23 @@ div{
   position: absolute;
   right: 105px;
   top: 70px;
+  cursor: pointer;
+}
+
+.pop-up-send{
+  width: 518px;
+  height: 515px;
+  //background-size: contain;
+  margin: 0 auto;
+  text-align: center;
+
+}
+.pop-up-send-fail{
+  background-image: url('../images/pop-up-afer-submit/fale-bg-pop-up-01.png');
+}
+.pop-up-send-success{
+  background-image: url("../images/pop-up-afer-submit/success-bg-pop-up-01.png");
+
 }
 @media (max-width: 1450px) {
   .price-info {

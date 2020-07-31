@@ -17,7 +17,7 @@
         <span></span>
     </div>
 
-    <div class="nav-content">
+    <div class="nav-content" id="nav-content">
         <a href="">
         <div class="logo">
             <img src="assets/images/header/nes-logo-01.png">
@@ -585,11 +585,6 @@
                     </div>
                 </div>
             </div>
-
-            <!--<div class="join-us-buttons">-->
-                <!--<img alt="to-know-price" src="assets/images/join-us/to%20know%20price%20button-01.svg" onclick="openPrice('price')">-->
-                <!--<img alt="apply" src="assets/images/join-us/apply-01.svg">-->
-            <!--</div>-->
             <div class="price-pop-up" id="price">
                 <img class="pop-up-close" src="assets/images/join-us/price/cancel%20orange-01.svg" onclick="closeGame('price')">
 
@@ -729,6 +724,18 @@
         </div>
     </div>
 </div>
+    <div class="pop-up-send pop-up-send-success">
+       <div class="pop-up-send-text">
+            <p>Спасибо!</p>
+            <p>Ваша заявка успешно отправлена</p>
+            <span>Очень скоро мы свяжемся с вами</span>
+       </div>
+    </div>
+    <div class="pop-up-send pop-up-send-fail">
+        <div class="pop-up-send-text">
+            <p>Пожалуйста, повторите попытку</p>
+            <span>К сожалению, возникли сбои в работе сайта или сети</span>
+        </div>
 <div id="portfolio" class="portfolio">
     <div class="portfolio-heading">
         <div class="line-over-text">
@@ -854,5 +861,16 @@
 </div>
 <script src="assets/scripts/scripts.js"> </script>
 <script src="assets/scripts/timer.js"></script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function(){
+        $("#nav-content").on("click","a", function (event) {
+            event.preventDefault();
+            var id  = $(this).attr('href'),
+                top = $(id).offset().top;
+            $('body,html').animate({scrollTop: top}, 500);
+        });
+    });
+</script>
 </body>
 </html>
