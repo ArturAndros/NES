@@ -6,10 +6,12 @@ function openBurger() {
     if(menu.style.display ==="none"){
         menu.style.display = "flex";
         headerContent.style.display="none"
+        document.body.classList.add('my-body-noscroll-class');
     }
     else{
         menu.style.display = "none";
         headerContent.style.display="flex"
+        document.body.classList.remove('my-body-noscroll-class');
     }
 };
 
@@ -90,6 +92,10 @@ function openPopUp(id) {
 function closeGame(id) {
     document.getElementById(id).style.display="none";
     document.body.classList.remove('my-body-noscroll-class');
+    document.getElementById("pop-up-send-bg").style.display='none';
+    document.body.classList.remove('my-body-noscroll-class');
+
+
 }
 function openPrice(id) {
     document.getElementById(id).style.display="block"
@@ -103,10 +109,19 @@ const form = document.forms['submit-to-google-sheet'];
 form.addEventListener('submit', e => {
     e.preventDefault()
     fetch(scriptURL2, { method: 'POST', body: new FormData(form)})
-        .then(response => console.log('Success!', response))
-        .catch(error => console.error('Error!', error.message))
+        .then(response =>
+            // console.log('Success!', response)
+        popUpSend('pop-up-send-success') )
+        //)
+        .catch(error => popUpSend('pop-up-send-fail')
+            // console.error('Error!', error.message)
+        )
 });
-
+function popUpSend(id) {
+    document.getElementById(id).style.display='block';
+    document.getElementById("pop-up-send-bg").style.display='block';
+    document.body.classList.add('my-body-noscroll-class');
+}
 function submitB() {
     document.getElementById('send').click();
 }

@@ -266,8 +266,8 @@
     <div class="join-us-content">
         <div class="join-us-column">
             <div class="join-us-menu-choose-lvl">
-                <div class="join-us-menu-choose-lvl-element beginner" onclick="openLevel(event,'beginner-ill','beginner')"></div>
-                <div class="join-us-menu-choose-lvl-element middle" id="defaultOpen" onclick="openLevel(event,'middle-ill','middle')" ></div>
+                <div class="join-us-menu-choose-lvl-element beginner" id="defaultOpen" onclick="openLevel(event,'beginner-ill','beginner')"></div>
+                <div class="join-us-menu-choose-lvl-element middle" onclick="openLevel(event,'middle-ill','middle')" ></div>
                 <div class="join-us-menu-choose-lvl-element advanced" onclick="openLevel(event,'advanced-ill','advance')"></div>
             </div>
             <div class="menu-illustration beginner-ill" id="beginner-ill"></div>
@@ -683,8 +683,8 @@
         <div class="contact-form-col">
                 <img alt="join course" class="contact-form-name" src="assets/images/contact-form/join-course-01.svg">
                 <div class="join-us-menu-choose-lvl">
-                    <div class="join-us-menu-choose-lvl-element beginner check-lvl-element" onclick="chooseLevel(event,'beginner-check')"></div>
-                    <div class="join-us-menu-choose-lvl-element middle check-lvl-element" id="defaultOpenCheck" onclick="chooseLevel(event,'middle-check')" ></div>
+                    <div class="join-us-menu-choose-lvl-element beginner check-lvl-element" id="defaultOpenCheck" onclick="chooseLevel(event,'beginner-check')"></div>
+                    <div class="join-us-menu-choose-lvl-element middle check-lvl-element"  onclick="chooseLevel(event,'middle-check')" ></div>
                     <div class="join-us-menu-choose-lvl-element advanced check-lvl-element" onclick="chooseLevel(event,'advance-check')"></div>
                    <div class="checkboxes">
                        <select name="level">
@@ -724,18 +724,24 @@
         </div>
     </div>
 </div>
-    <div class="pop-up-send pop-up-send-success">
+
+<div class="pop-up-send-bg" id="pop-up-send-bg">
+    <div class="pop-up-send pop-up-send-success" id="pop-up-send-success">
        <div class="pop-up-send-text">
             <p>Спасибо!</p>
             <p>Ваша заявка успешно отправлена</p>
-            <span>Очень скоро мы свяжемся с вами</span>
+            <p class="small-text-pop">Очень скоро мы свяжемся с вами</p>
+           <button class="close-ok" onclick="closeGame('pop-up-send-success')">OK</button>
        </div>
     </div>
-    <div class="pop-up-send pop-up-send-fail">
+    <div class="pop-up-send pop-up-send-fail" id="pop-up-send-fail">
         <div class="pop-up-send-text">
             <p>Пожалуйста, повторите попытку</p>
-            <span>К сожалению, возникли сбои в работе сайта или сети</span>
+            <p class="small-text-pop">К сожалению, возникли сбои в работе сайта или сети</p>
         </div>
+        <button class="close-ok" onclick="closeGame('pop-up-send-fail')">OK</button>
+    </div>
+</div>
 <div id="portfolio" class="portfolio">
     <div class="portfolio-heading">
         <div class="line-over-text">
