@@ -14,6 +14,14 @@ function openBurger() {
         document.body.classList.remove('my-body-noscroll-class');
     }
 };
+function closeBurger() {
+    document.getElementById("burger").classList.toggle("open");
+    let menu = document.getElementById("burger-menu");
+    let headerContent = document.querySelector('.header-content');
+    menu.style.display = "none";
+    headerContent.style.display="flex"
+    document.body.classList.remove('my-body-noscroll-class');
+}
 
 function openLevel(evt,lvlName,lvlTab) {
     // Declare all variables
@@ -102,10 +110,10 @@ function openPrice(id) {
     document.body.classList.add('my-body-noscroll-class');
 }
 
-const scriptURL = 'https://script.google.com/macros/s/AKfycbzp5NEMJWJXlUi_01gSXFBb3J5ob3d-jGTZyO6r6AcaIktPgHg/exec';
+
+//form
 const scriptURL2 = 'https://script.google.com/macros/s/AKfycbxiguP6Qc4CBy9MGoTEzMap11R3bIOjwwp53tv_r9k9gGobkBEI/exec';
 const form = document.forms['submit-to-google-sheet'];
-
 form.addEventListener('submit', e => {
     e.preventDefault()
     fetch(scriptURL2, { method: 'POST', body: new FormData(form)})
@@ -117,6 +125,7 @@ form.addEventListener('submit', e => {
             // console.error('Error!', error.message)
         )
 });
+
 function popUpSend(id) {
     document.getElementById(id).style.display='block';
     document.getElementById("pop-up-send-bg").style.display='block';

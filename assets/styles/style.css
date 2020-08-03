@@ -3,8 +3,112 @@ body {
   margin: 0;
   background-color: black;
   color: white;
+  overflow-x: hidden;
 }
 
+.preloader {
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  background-color: black;
+  z-index: 100;
+  transition: opacity 0.5s linear 0.4s;
+  overflow: hidden;
+}
+.preloader .preload-container {
+  transition: opacity 0.4s;
+}
+.preloader .preload-image {
+  width: 140px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.hide {
+  opacity: 0;
+}
+
+.preloader .preloader-image-container {
+  transition: opacity 0.4s;
+}
+.preloader .preloader.hide {
+  opacity: 0;
+}
+.preloader .preloader.hide .preloader-image-container {
+  opacity: 0;
+}
+
+.preloader-image-black {
+  animation-name: preloader-animation-black;
+  animation-iteration-count: infinite;
+  animation-duration: 4s;
+}
+
+.preloader-image-white {
+  animation-name: preloader-animation-white;
+  animation-iteration-count: infinite;
+  animation-duration: 4s;
+}
+
+.preloader-image-yellow {
+  animation-name: preloader-animation-yellow;
+  animation-iteration-count: infinite;
+  animation-duration: 4s;
+}
+
+@keyframes preloader-animation-black {
+  0% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes preloader-animation-white {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes preloader-animation-yellow {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
 .my-body-noscroll-class {
   overflow: hidden;
 }
@@ -353,6 +457,16 @@ nav a {
 .relevance-info-card {
   width: 260px;
   margin-bottom: 20px;
+}
+.relevance-info-card img:hover {
+  opacity: 1;
+}
+.relevance-info-card .relevance-icon {
+  opacity: 0.8;
+  margin-left: 45px;
+}
+.relevance-info-card .relevance-icon:hover {
+  opacity: 1;
 }
 .relevance-info-card h2 {
   text-align: center;
@@ -703,6 +817,24 @@ nav a {
   width: 240px;
   cursor: pointer;
 }
+.join-us-buttons .join-us-btn {
+  outline: none;
+  width: 235px;
+  height: 45px;
+  border: 2px solid #FFC50B;
+  border-radius: 20px;
+  color: #afb1b2;
+  background: none;
+  line-height: 45px;
+  font-size: 21px;
+  font-weight: bold;
+  cursor: pointer;
+  text-align: center;
+}
+.join-us-buttons .join-us-btn:hover {
+  color: #00141e;
+  background-color: #FFC50B;
+}
 
 .checkboxes {
   display: none;
@@ -1019,7 +1151,7 @@ nav a {
 
 .portfolio-info {
   max-width: 1420px;
-  margin: 0 auto;
+  margin: 0 auto 200px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -1081,6 +1213,10 @@ nav a {
   font-weight: bold;
   letter-spacing: 3px;
   font-size: 21px;
+}
+.game-buttons .about-game-btn:hover {
+  color: black;
+  background-color: #9543ff;
 }
 
 #tic-tac-toe, #endless-runner {
@@ -1739,8 +1875,12 @@ nav a {
     max-width: 370px;
   }
 
-  .join-us-buttons img {
-    width: 150px;
+  .join-us-buttons .join-us-btn {
+    width: 42%;
+    height: 30px;
+    line-height: 30px;
+    font-size: 12px;
+    border-radius: 10px;
   }
 
   .portfolio-heading, .join-us-heading {

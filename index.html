@@ -7,6 +7,14 @@
     <link rel="stylesheet" href="assets/styles/style.css">
 </head>
 <body>
+<div class="preloader" id="preloader">
+    <div class="preload-container">
+        <img class="preload-image preloader-image-black" src="assets/images/preloader/N-black.svg">
+        <img class="preload-image preloader-image-white" src="assets/images/preloader/N-white.svg">
+        <img class="preload-image preloader-image-yellow" src="assets/images/preloader/N-yellow.svg">
+
+    </div>
+</div>
 <nav>
     <img class="logo-bg" src="assets/images/header/logo-shine-bg-01.svg">
     <img class="nav-bg" src="assets/images/header/header-01.svg">
@@ -31,11 +39,11 @@
             <a href="#portfolio">Портфолио</a>
         </div>
         <div class="menu-mobile" id="burger-menu" style="display: none">
-            <a href="#about-us">О нас</a>
-            <a href="#relevance">Актуальность</a>
-            <a href="#about-course">О курсе</a>
-            <a href="#join-us">Присоединиться</a>
-            <a href="#portfolio">Портфолио</a>
+            <a href="#about-us" onclick="closeBurger()" >О нас</a>
+            <a href="#relevance" onclick="closeBurger()" >Актуальность</a>
+            <a href="#about-course" onclick="closeBurger()" >О курсе</a>
+            <a href="#join-us" onclick="closeBurger()" >Присоединиться</a>
+            <a href="#portfolio" onclick="closeBurger()" joi>Портфолио</a>
         </div>
     </div>
 </nav>
@@ -137,7 +145,7 @@
             <h2>
                 ДЛЯ ПОДРОСТКОВ
             </h2>
-            <img class="relevance-icon" src="assets/images/relevance/icon1.svg">
+            <img class="relevance-icon" src="assets/images/relevance/icon-1-01.png">
             <div class="relevance-card-line">
                 <img src="assets/images/lines/line%20orange%20small-01.svg">
             </div>
@@ -152,7 +160,7 @@
             <h2>
                 ПРОФОРИЕНТАЦИЯ
             </h2>
-            <img class="relevance-icon" src="assets/images/relevance/icon2.svg">
+            <img class="relevance-icon" src="assets/images/relevance/icon-2-01.png">
             <div class="relevance-card-line">
                 <img src="assets/images/lines/line%20purple%20small-01.svg">
             </div>
@@ -167,7 +175,7 @@
             <h2>
                 ПРОГРАММИРОВАНИЕ
             </h2>
-            <img class="relevance-icon" src="assets/images/relevance/icon3.svg">
+            <img class="relevance-icon" src="assets/images/relevance/icon-3-01.png">
             <div class="relevance-card-line">
                 <img src="assets/images/lines/line%20green%20small-01.svg">
             </div>
@@ -182,7 +190,7 @@
             <h2>
                 КАК НАЙТИ РАБОТУ
             </h2>
-            <img class="relevance-icon" src="assets/images/relevance/icon4.svg">
+            <img class="relevance-icon" src="assets/images/relevance/icon-4-01.png">
             <div class="relevance-card-line">
                 <img src="assets/images/lines/line%20blue%20small-01.svg">
             </div>
@@ -704,11 +712,13 @@
                     <input name="phone" required class="input-contact" type="text" size="30" placeholder="Телефон">
                 </div>
                 <div class="join-us-buttons">
-                    <img alt="to-know-price" src="assets/images/join-us/to%20know%20price%20button-01.svg" onclick="openPrice('price')">
-                    <img alt="apply" src="assets/images/join-us/apply-01.svg" onclick="submitB()">
+                    <!--<img alt="to-know-price" src="assets/images/join-us/to%20know%20price%20button-01.svg" onclick="openPrice('price')">-->
+                    <!--<img alt="apply" src="assets/images/join-us/apply-01.svg" onclick="submitB()">-->
+                    <div class="join-us-btn" onclick="openPrice('price')"> УЗНАТЬ ЦЕНУ </div>
+                    <button  class="join-us-btn" id='send' type="submit">ПОДАТЬ ЗАЯВКУ</button>
                 </div>
             </div>
-            <button style="display: none" id='send' type="submit">Send</button>
+            <!--<button style="display: none" id='send' type="submit">Send</button>-->
         </form>
         <div class="contact-media">
             <div class="media-icons">
@@ -877,6 +887,16 @@
             $('body,html').animate({scrollTop: top}, 500);
         });
     });
+</script>
+<script>
+    window.onload = function () {
+        // document.body.classList.add('loaded_hiding');
+        window.setTimeout(function () {
+            // document.body.classList.add('loaded');
+            // document.body.classList.remove('loaded_hiding');
+            document.getElementById('preloader').classList.add('hide')
+        }, 3500);
+    }
 </script>
 </body>
 </html>
