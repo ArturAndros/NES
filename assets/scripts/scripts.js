@@ -22,7 +22,18 @@ function closeBurger() {
     headerContent.style.display="flex"
     document.body.classList.remove('my-body-noscroll-class');
 }
-
+// function changeVideo() {
+//     if (window.matchMedia("(min-width: 1080px)").matches) {
+//         /* the viewport is at least 400 pixels wide */
+//         document.getElementById('video').classList.add('vertical');
+//         document.getElementById('video').classList.remove('horizontal');
+//     } else {
+//         /* the viewport is less than 400 pixels wide */
+//         document.getElementById('video').classList.remove('vertical');
+//         document.getElementById('video').classList.add('horizontal');
+//     }
+// }
+// changeVideo();
 function openLevel(evt,lvlName,lvlTab) {
     // Declare all variables
     var i, tabcontent, tablinks, lvlIll;
@@ -134,3 +145,4 @@ function popUpSend(id) {
 function submitB() {
     document.getElementById('send').click();
 }
+

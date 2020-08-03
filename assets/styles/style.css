@@ -28,6 +28,7 @@ body {
 
 .hide {
   opacity: 0;
+  z-index: -10;
 }
 
 .preloader .preloader-image-container {
@@ -222,6 +223,18 @@ header {
   background-size: cover;
   height: 1080px;
   text-align: center;
+}
+header .video-wrapper {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
 }
 header .header-content {
   max-width: 86%;
